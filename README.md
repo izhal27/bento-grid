@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-bento-grid-UKjLvVkgkZ)
 - Live Site URL: [View Live Demo](https://izhal27.github.io/bento-grid)
 
 ## My process
