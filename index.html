@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Bento grid</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-sans: "DM Sans", sans-serif;
+        --color-purple-100: hsl(254, 88%, 90%);
+        --color-purple-500: hsl(256, 67%, 59%);
+        --color-yellow-100: hsl(31, 66%, 93%);
+        --color-yellow-500: hsl(39, 100%, 71%);
+      }
+    </style>
+  </head>
+  <body class="bg-[#f5f5f5]">
+    <main class="min-h-screen flex justify-center items-center">
+      <div
+        class="max-w-[345px] flex flex-col items-center justify-center gap-8 md:max-w-[1120px] md:grid md:grid-cols-4 md:grid-rows-3 md:items-stretch md:gap-6 md:items-start"
+      >
+        <section
+          class="bg-purple-500 rounded-xl p-10 space-y-8 flex flex-col items-center md:p-16 md:col-start-2 md:col-span-2 md:row-start-1"
+        >
+          <h1
+            class="font-semibold text-[42px] leading-10 text-center text-white md:text-5xl md:leading-[50px]"
+          >
+            Social Media 10x Faster with AI
+          </h1>
+          <div class="flex flex-col items-center">
+            <img
+              class="max-w-3/4 md:max-w-[185px]"
+              src="./assets/images/illustration-five-stars.webp"
+              alt="Five Stars"
+            />
+            <p class="text-white text-xl">Over 4,000 5-star reviews</p>
+          </div>
+        </section>
+        <section
+          class="bg-white rounded-xl p-4 md:col-start-2 md:row-start-2 md:col-span-1"
+        >
+          <img
+            src="./assets/images/illustration-multiple-platforms.webp"
+            alt="Multiple Platform Images"
+          />
+          <p class="text-2xl font-semibold">
+            Manage multiple accounts and platforms.
+          </p>
+        </section>
+        <section
+          class="bg-yellow-500 p-4 relative overflow-hidden rounded-xl md:col-start-3 md:row-start-2 md:col-span-1"
+        >
+          <p class="text-2xl font-semibold mb-[140px] leading-6">
+            Maintain a consistent posting schedule.
+          </p>
+          <img
+            class="block w-[208px] absolute -bottom-5"
+            src="./assets/images/illustration-consistent-schedule.webp"
+            alt="Consistent Schedule Iamge"
+          />
+        </section>
+        <section
+          class="bg-purple-100 flex flex-col items-center px-4 py-6 gap-5 text-center rounded-xl md:justify-center md:col-start-4 md:row-start-1 md:text-left md:row-span-2"
+        >
+          <p class="text-2xl md:mb-72">Schedule to social media.</p>
+          <img
+            class="w-[310px] md:w-auto md:-right-20"
+            src="./assets/images/illustration-schedule-posts.webp"
+            alt="Schedule Post Image"
+          />
+          <p class="text-lg leading-6">
+            Optimize post timings to publish content at the perfect time for
+            your audience.
+          </p>
+        </section>
+        <section
+          class="bg-purple-500 flex flex-col justify-center items-center gap-9 p-6 rounded-xl md:flex-row md:col-start-3 md:row-start-3 md:col-span-2"
+        >
+          <img
+            class="w-[228px]"
+            src="./assets/images/illustration-grow-followers.webp"
+            alt="Grow Followers Image"
+          />
+          <p class="text-4xl text-center leading-7 text-white">
+            Grow followers with non-stop content.
+          </p>
+        </section>
+        <section
+          class="w-full bg-white flex flex-col items-start p-6 gap-4 rounded-xl md:col-start-2 md:row-start-3 md:col-span-1"
+        >
+          <p class="text-5xl font-semibold">>56%</p>
+          <p>faster audience growth</p>
+          <img
+            class="w-[180px]"
+            src="./assets/images/illustration-audience-growth.webp"
+            alt="Audience Growth Image"
+          />
+        </section>
+        <section
+          class="space-y-5 p-6 rounded-xl bg-yellow-100 md:flex md:flex-col md:justify-center md:col-start-1 md:row-start-1 md:col-span-1 md:row-span-2"
+        >
+          <p class="text-3xl font-semibold leading-7">
+            Create and schedule content quicker.
+          </p>
+          <img
+            class="w-[190px]"
+            src="./assets/images/illustration-create-post.webp"
+            alt="Create Post Image"
+          />
+        </section>
+        <section
+          class="w-full bg-yellow-500 p-6 rounded-xl space-y-6 md:col-start-1 md:row-end-5 md:justify-start md:items-start md:col-span-1 md:row-span-2"
+        >
+          <p class="text-3xl leading-7">Write your content using AI.</p>
+          <img
+            class="w-[220px]"
+            src="./assets/images/illustration-ai-content.webp"
+            alt="AI Content Image"
+          />
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
